@@ -1,12 +1,33 @@
 body {
     background-color: #B9E0FF;
+    font-family: sans-serif;
 }
 
 h1 {
     color: #6C4AB6;
 }
 
+h3 {
+    color:#6C4AB6;
+}
+
+h4 {
+    color: #8D72E1;
+}
+
+.navbar {
+    border-bottom: 2px solid black;
+}
+
 .profile-img {
     border-radius: 100%;
-    width: 50%;
+    width: 90%;
+}
+
+.container {
+    margin: 2%;
+}
+
+footer {
+    font-size: 0.8rem;
 }
