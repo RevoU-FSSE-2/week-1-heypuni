@@ -1,3 +1,4 @@
 function contactMe() {
-    alert("Kuru-kuru itu opo to mbah..");
+    alert("Kuru-kuru iku opo toh mbah..");
+
 }
