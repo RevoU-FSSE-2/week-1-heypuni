@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gabby Evalin's Personal Site</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;800;900&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -20,15 +21,15 @@
   </nav>  
 
   <header>
-    <table cellspacing="30">
+    <table cellspacing="30" class="greeting-summary">
       <tr>
-        <td>
-          <img class=profile-img src="https://i.pinimg.com/280x280_RS/ef/63/b8/ef63b84b2c25966c7480b07d0176b85c.jpg" alt="profile-img">
-        </td>
         <td class="greeting">
           <h1>Hello, I'm Gabby</h1>
-          <h4>A <em>lifelong learner</em> and <em>storyteller</em></h4>
+          <h4>A lifelong learner and storyteller</h4>
           <a href="https://www.linkedin.com/in/gabby-e-541605117/">Say Hello!</a>
+        </td>
+        <td>
+          <img class=profile-img src="https://i.pinimg.com/280x280_RS/ef/63/b8/ef63b84b2c25966c7480b07d0176b85c.jpg" alt="profile-img">
         </td>
       </tr>
       
@@ -38,15 +39,17 @@
         I'm an creative and responsible young woman with high dedication to gain new expertise in the digital field, specifically software development. 
         As a Hospitality Major graduate with an experience in digital marketing, I had the opportunities to hone my communication skill, collaboration,
         and analytical thinking. A quick-learner and highly motivated individual, I always seek new opportunities in challenging environment.<br>
-        Now, <br> 
+        OKAY, that's a lie <br>
+        Enough formality here <br>
+        But, really <br> 
         What can I help you with?
       </p>
   </div>
   </header>
-  
+    
   <div class="container">
-    <hr size="2">
-    <h3>Education</h3>
+    <hr>
+    <h3>  Education</h3>
     <p>Petra Christian University</p>
     <ul>
       <li>Creative Tourism Business 2018 - 2022</li>
@@ -55,49 +58,23 @@
     <p>High School</p>
     <ul>
       <li>Petra 2 Senior High School - Social Sciences Major</li>
+      <li> P.s this section is added because I don't know what to write </li>
     </ul>
     <hr>
-  
-    <h3>Work Experiences</h3>
-    <table cellspacing="10">
-      <thead>
-        <th>Dates</th>
-        <th>Work</th>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Jan 2021- July 2021</td>
-          <td>Intern at PT.Pakuwon Jati Tbk, Promotion Department</td>
-        </tr>
-        <tr>
-          <td>July 2019 - December 2019 </td>
-          <td>Intern at Hush Puppies Petra, Retail Management</td>
-        </tr>
-        <tr>
-          <td>Jan 2019 - July 2019 </td>
-          <td>Intern at Petra Tour and Travel, Travel Services</td>
-        </tr2>
-      </tbody>
-      <tfoot>
-        <tr>
-          <td>July 2017 - Aug 2017</td>
-          <td>Liaison Officer for Prepcom 3 UN Habitat in Surabaya</td>
-        </tr>
-      </tfoot>
-    </table>
+
     <br>
-  
-       <button onclick="alert('Hello')">Contact Me</button>
-    
+
+       <button type="button" onclick="contactMe()">Contact Me</button>
+       
     <br>
 
   </div>
+  <script src="index.js"></script>
 </body>
 
-<hr> 
 
 <footer>
-  <p> Created by Gabby Evalin </p>
+  <p class="footer"> Created by Gabby Evalin </p>
 </footer>
 
 </body>
